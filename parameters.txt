@@ -1,0 +1,69 @@
+For options "Information about team" and "List all Teams in a League" parameters are: "Team", "TeamShort",
+"Alternate", "FormedYear", "Sport", "League", "League2", "League3", "League4", "League5",
+"League6", "League7", "Division", "Manager", "Stadium", "Keywords", "RSS", "StadiumThumb",
+"StadiumDescription", "StadiumLocation", "StadiumCapacity", "Website", "Facebook", "Twitter",
+"Instagram", "DescriptionEN", "DescriptionDE", "DescriptionFR", "DescriptionCN", "DescriptionIT",
+"DescriptionJP", "DescriptionRU", "DescriptionES", "DescriptionPT", "DescriptionSE", "DescriptionNL",
+"DescriptionHU", "DescriptionNO", "DescriptionIL", "DescriptionPL", "Gender", "Country",
+"TeamBadge", "TeamJersey", "TeamLogo", "TeamFanart1", "TeamFanart2", "TeamFanart3", "TeamFanart4",
+"TeamBanner" and "Youtube".
+
+For "Information about player" parameters are: "Player", "Nationality", "Team", "Team2", "Sport",
+"dateBorn", "Number", "dateSigned", "Signing", "Wage", "Outfitter", "Kit", "Agent",
+"BirthLocation", "DescriptionEN", "DescriptionDE", "DescriptionFR", "DescriptionCN", "DescriptionIT",
+"DescriptionJP", "DescriptionRU", "DescriptionES", "DescriptionPT", "DescriptionSE", "DescriptionNL",
+"DescriptionHU", "DescriptionNO", "DescriptionIL", "DescriptionPL", "Gender", "Side", "Position",
+"College", "Facebook", "Website", "Twitter", "Instagram", "Youtube", "Height", "Weight",
+"Thumb", "Cutout", "Render", "Banner", "Fanart1", "Fanart2", "Fanart3" and "Fanart4".
+
+For "Information about event" parameters are: "Event", "EventAlternate", "Filename", "Sport", "League",
+"Season", "DescriptionEN", "HomeTeam", "AwayTeam", "HomeScore", "Round", "AwayScore",
+"Spectators", "Official", "HomeGoalDetails", "HomeRedCards", "HomeYellowCards", "HomeLineupGoalkeeper",
+"HomeLineupDefense", "HomeLineupMidfield", "HomeLineupForward", "HomeLineupSubstitutes", "HomeFormation",
+"AwayRedCards", "AwayYellowCards", "AwayGoalDetails", "AwayLineupGoalkeeper", "AwayLineupDefense",
+"AwayLineupMidfield", "AwayLineupForward", "AwayLineupSubstitutes", "AwayFormation", "HomeShots",
+"AwayShots", "Timestamp", "dateEvent", "dateEventLocal", "Time", "TimeLocal", "TVStation", "Result",
+"Venue", "Country", "City", "Poster", "Square", "Fanart", "Thumb", "Banner", "Map",
+"Tweet1", "Tweet2", "Tweet3", "Video", "Status" and "Postponed".
+
+For "List all sports" parameters are: "Sport", "Format", "SportThumb", "SportThumbGreen", "SportDescription".
+
+For "List all leagues" parameters are: "League", "Sport", "LeagueAlternate".
+
+For "List all countries" parameter is "name_en".
+
+For "List all Seasons in a League" parameter is "Season".
+
+For "League Details" parameters are: "League", "Sport", "LeagueAlternate", "Division", "CurrentSeason",
+"FormedYear", "dateFirstEvent", "Gender", "Country", "Website", "Facebook", "Twitter", "Youtube",
+"RSS", "DescriptionEN", "DescriptionDE", "DescriptionFR", "DescriptionIT", "DescriptionCN",
+"DescriptionJP", "DescriptionRU", "DescriptionES", "DescriptionPT", "DescriptionSE", "DescriptionNL",
+"DescriptionHU", "DescriptionNO", "DescriptionPL", "DescriptionIL", "TvRights", "Fanart1", "Fanart2",
+"Fanart3", "Fanart4", "Banner", "Badge", "Logo", "Poster", "Trophy" and "Naming".
+
+For "Player Honours" parameters are: "Honour", "Player", "Sport", "Team" and "Season".
+
+For "Player Former Teams" parameters are: "FormerTeam", "Sport", "Player", "MoveType", "TeamBadge",
+"Joined" and "Departed".
+
+For "Player Contracts" parameters are: "Sport", "Player", "Team", "TeamBadge", "YearStart", "YearEnd"
+and "Wage".
+
+For "Event Results" parameters are: "Player", "Event", "Result", "Position", "Points", "Detail",
+"dateEvent", "Season", "Country" and "Sport".
+
+For "Lookup Table by League and Season" parameters are: "Rank", "Team", "TeamBadge", "League", "Season",
+"Form", "Description", "Played", "Win", "Loss", "Draw", "GoalsFor", "GoalsAgainst",
+"GoalDifference", "Points" and "dateUpdated".
+
+For "Lookup Equipment by Team" parameters are: "date", "Season", "Equipment", "Type" and "Username".
+
+For "Last 15 Events by League" parameters are: "Event", "EventAlternate", "Filename", "Sport", "League",
+"League", "Season", "DescriptionEN", "HomeTeam", "AwayTeam", "HomeScore", "Round", "AwayScore",
+"Spectators", "Official", "HomeGoalDetails", "HomeRedCards", "HomeYellowCards", "HomeLineupGoalkeeper",
+"HomeLineupDefense", "HomeLineupMidfield", "HomeLineupForward", "HomeLineupSubstitutes", "HomeFormation",
+"AwayRedCards", "AwayYellowCards", "AwayGoalDetails", "AwayLineupGoalkeeper", "AwayLineupDefense",
+"AwayLineupMidfield", "AwayLineupForward", "AwayLineupSubstitutes", "AwayFormation", "HomeShots",
+"AwayShots", "Timestamp", "dateEvent", "dateEventLocal", "Time", "TimeLocal", "TVStation", "Result",
+"Venue", "Country", "City", "Poster", "Square", "Fanart", "Thumb", "Banner", "Map",
+"Tweet1", "Tweet2", "Tweet3", "Video", "Status" and "Postponed".
