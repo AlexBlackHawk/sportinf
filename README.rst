@@ -9,17 +9,20 @@ data from TheSportsDB API (<https://www.thesportsdb.com>).
 Installation
 ============
 Python >= 3.5
+
 pip install sporres
 
 =====
 Usage
 =====
 First things first we have to import class called SportInfo:
-.. code-block:: python
+
     from sporres import SportInfo
+
 After this we make an object of this class:
-.. code-block:: python
+
     info = SportInfo(option="name of the option", name_of_parameter="value of the parameter")
+
 First parameter is option. This parameter shows what information you want to get. Here are all options that available in
 module and their description:
 
@@ -42,7 +45,7 @@ module and their description:
 When you createn an object of SportInfo class, you have to write only option and
 those parameters that are written in the description for every option. For example, you need to an information about player Lionel Messi.
 You have to write next:
-.. code-block:: python
+
     info = SportInfo(option="Information about player", player_name="Lionel Messi")
 
 You get a result as python dictionary. In this dictionary keys are parameters. For every option they are different.
