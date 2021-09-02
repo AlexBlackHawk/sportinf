@@ -1,4 +1,4 @@
-from constants import *
+from sportinf import constants
 import requests
 import json
 
@@ -44,12 +44,12 @@ class SportInfo:
             return string
 
     def __get_info(self):
-        link = link_patterns[self.__data["option"]]["link"]
+        link = constants.link_patterns[self.__data["option"]]["link"]
         opt = self.__data["option"]
-        if self.__data["option"] in options_need_id:
+        if self.__data["option"] in constants.options_need_id:
             need_id = self.__get_id()
             if self.__data["option"] == "Lookup Table by League and Season":
-                name_of_second_parameter = link_patterns[opt]["parameter2"]
+                name_of_second_parameter = constants.link_patterns[opt]["parameter2"]
                 param2 = self.__data[name_of_second_parameter]
                 try:
                     r = requests.get(link.format(parameter1=need_id, parameter2=param2))
@@ -67,7 +67,7 @@ class SportInfo:
             except requests.ConnectionError:
                 raise Exception("Check your Internet connection")
         else:
-            name_of_parameter = link_patterns[opt]["parameter1"]
+            name_of_parameter = constants.link_patterns[opt]["parameter1"]
             param1 = self.__data[name_of_parameter]
             try:
                 r = requests.get(link.format(parameter1=param1))
@@ -92,18 +92,18 @@ class SportInfo:
                 if len(general_value) >= 2:
                     for every_dictionary in general_value:
                         if self.__data["option"] == "Player Contracts":
-                            contract_start = link_patterns[self.__data["option"]]["useful parameters"][4]
-                            contract_end = link_patterns[self.__data["option"]]["useful parameters"][5]
+                            contract_start = constants.link_patterns[self.__data["option"]]["useful parameters"][4]
+                            contract_end = constants.link_patterns[self.__data["option"]]["useful parameters"][5]
                             unique_parameter = every_dictionary[contract_start] + " - " + every_dictionary[contract_end]
                         else:
-                            name_of_unique_parameter = link_patterns[self.__data["option"]]["useful parameters"][0]
+                            name_of_unique_parameter = constants.link_patterns[self.__data["option"]]["useful parameters"][0]
                             unique_parameter = every_dictionary[name_of_unique_parameter]
                         useful_information[unique_parameter] = {}
                         for key, value in every_dictionary.items():
-                            if key in link_patterns[self.__data["option"]]["useful parameters"] and self.__check_none_or_empty_value(value):
+                            if key in constants.link_patterns[self.__data["option"]]["useful parameters"] and self.__check_none_or_empty_value(value):
                                 useful_information[unique_parameter][self.__replace_str_or_int(key)] = value
                 else:
                     for key, value in general_value[0].items():
-                        if key in link_patterns[self.__data["option"]]["useful parameters"] and self.__check_none_or_empty_value(value):
+                        if key in constants.link_patterns[self.__data["option"]]["useful parameters"] and self.__check_none_or_empty_value(value):
                             useful_information[self.__replace_str_or_int(key)] = value
         return useful_information
