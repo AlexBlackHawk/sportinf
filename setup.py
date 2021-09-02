@@ -16,7 +16,7 @@ setup(
     author='alexm',
     author_email='alex.maudza@gmail.com',
     description='Package to get sport information',
-    download_url='https://github.com/AlexBlackHawk/sportinf/archive/refs/tags/1.1.1.tar.gz',
+    download_url='https://github.com/AlexBlackHawk/sportinf/archive/refs/tags/1.1.2.tar.gz',
     keywords=['sportinf', 'sport', 'scores', 'statistic'],
     install_requires=['requests'],
     python_requires='>=3'
