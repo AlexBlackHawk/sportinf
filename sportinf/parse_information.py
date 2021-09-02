@@ -1,4 +1,4 @@
-from sport_info.constants import *
+from constants import *
 import requests
 import json
 
