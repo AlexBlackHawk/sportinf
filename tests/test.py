@@ -1,6 +1,6 @@
 import unittest
 from results import *
-from sport_info.parse_information import SportInfo
+from sportinf.parse_information import SportInfo
 
 
 class OptionsTests(unittest.TestCase):
