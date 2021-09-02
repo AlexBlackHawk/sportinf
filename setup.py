@@ -10,7 +10,7 @@ setup(
     name='sportinf',
     version='1.0.1',
     long_description=long_description,
-    packages=['tests', 'sport_info'],
+    packages=['tests', 'sportinf'],
     url='https://github.com/AlexBlackHawk/sportinf',
     license='MIT',
     author='alexm',
