@@ -1,8 +1,8 @@
-=======
-sporres
-=======
-Sporres is a convenient python module to get data of sport teams, players, leagues and events. You can know
-information from many sports, such as: football, hockey, basketball, tennis, golf, athletics and so on. Sporres gets
+========
+sportinf
+========
+Sportinf is a convenient python module to get data of sport teams, players, leagues and events. You can know
+information from many sports, such as: football, hockey, basketball, tennis, golf, athletics and so on. Sportinf gets
 data from TheSportsDB API (<https://www.thesportsdb.com>).
 
 ============
@@ -10,14 +10,14 @@ Installation
 ============
 Python >= 3.5
 
-pip install sporres
+pip install sportinf
 
 =====
 Usage
 =====
 First things first we have to import class called SportInfo:
 
-    from sporres import SportInfo
+    from sportinf import SportInfo
 
 After this we make an object of this class:
 
@@ -42,7 +42,7 @@ module and their description:
 - Lookup Equipment by Team - returns an information about every equipment by team. Requires name of the team.
 - Last 15 Events by League - shows an information about 15 last events from any league. Requires name of the league.
 
-When you createn an object of SportInfo class, you have to write only option and
+When you created an object of SportInfo class, you have to write only option and
 those parameters that are written in the description for every option. For example, you need to an information about player Lionel Messi.
 You have to write next:
 
@@ -54,7 +54,7 @@ So, if you want to know an information for player Lionel Messi, you will result 
 
 Sometimes happens situation when you get more than one result. For instance, when you want to know information about team called Arsenal, you will get data about six teams,
 such as: Arsenal London, Arsenal U21, Arsenal WFC, Arsenal Kyiv, Arsenal Tula and Arsenal Sarandi.
-In this case sporres will return dictionary, where as a key will be name of the team, league, event etc.
+In this case sportinf will return dictionary, where as a key will be name of the team, league, event etc.
 As a value will be dictionary with parameters and values of this one.
 
 =============
