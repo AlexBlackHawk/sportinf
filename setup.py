@@ -8,7 +8,7 @@ with open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='sportinf',
-    version='1.1.1',
+    version='1.1.2',
     long_description=long_description,
     packages=['tests', 'sportinf'],
     url='https://github.com/AlexBlackHawk/sportinf',
